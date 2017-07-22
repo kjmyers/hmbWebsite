@@ -11,27 +11,32 @@
             margin: 0px;
         }
 
-        .left {
-            position: fixed;
-            top: 50px;
-            height: 100%;
-            left: 0;
-            background: white;
-        }
+        @media only screen and (min-width: 760px) {
 
-        .right {
-            position: fixed;
-            top: 50px;
-            right: 0;
-            height: 100%;
-            background: white;
+            .left {
+                position: fixed;
+                top: 50px;
+                height: 100%;
+                left: 0;
+                background: white;
+                max-width: 20%;
+            }
+
+            .right {
+                position: fixed;
+                top: 50px;
+                right: 0;
+                height: 100%;
+                background: white;
+                max-width: 20%;
+            }
         }
 
         .middle {
             background: #f4fbff;
             padding: 70px 21% 600px 21%;
             max-width: 1000px;
-            }
+        }
 
         .topnav {
             background-color: #333;
