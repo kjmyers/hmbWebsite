@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
     <style>
         body {
             margin: 0px;
@@ -24,7 +25,9 @@
             top: 0;
             width: 100%;
             height: 50px;
-            padding-left: 29%;
+            
+            display:flex;
+            justify-content: center;
         }
 
         .topnav a {
@@ -35,7 +38,8 @@
             padding: 14px 16px;
             text-decoration: none;
             font-size: 17px;
-            font-family: 'Satisfy', cursive;
+            /* font-family: 'Satisfy', cursive; */
+            font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
         }
 
         .topnav a:hover {
@@ -47,13 +51,15 @@
             float: left;
             display: block;
             color: white;
-            font-family: 'Satisfy', cursive;
+            /* font-family: 'Satisfy', cursive; */
+            font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
             text-align: center;
             padding: 14px 16px;
         }
 
         .title {
-            font-family: 'Satisfy', cursive;
+            /* font-family: 'Satisfy', cursive; */
+            font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
             font-weight: bold;
             font-size: 40px;
             text-align: center;
@@ -70,7 +76,8 @@
         }
 
         .aboutBody {
-            font-family: 'Muli', sans-serif;
+            /* font-family: 'Muli', sans-serif; */
+            font-family: 'EB Garamond', serif;
             font-size: 20px;
             margin-left: 50px;
             margin-right: 50px;
@@ -97,7 +104,8 @@
             /* Bottom margin */
             resize: vertical;
             /* Allow the user to vertically resize the textarea (not horizontally) */
-            font-family: 'Muli', sans-serif;
+            /* font-family: 'Muli', sans-serif; */
+            font-family: 'EB Garamond', serif;
         }
         /* Style the submit button with a specific background color etc */
 
@@ -108,7 +116,8 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            font-family: 'Muli', sans-serif;
+            /* font-family: 'Muli', sans-serif; */
+            font-family: 'EB Garamond', serif;
         }
         /* When moving the mouse over the submit button, add a darker green color */
 
@@ -123,7 +132,8 @@
             padding: 20px;
             margin-left: 20%;
             margin-right: 20%;
-            font-family: 'Muli', sans-serif;
+            /* font-family: 'Muli', sans-serif; */
+            font-family: 'EB Garamond', serif;
         }
 
         @media only screen and (min-width: 760px) {
@@ -162,15 +172,15 @@
     <div>
 
         <div class="topnav" id="myTopnav">
-            <span>Hilary Myers Bakes</span>
-            <a href="./index.html">Home</a>
-            <a href="./recipes.html">Favorite Recipes</a>
-            <a href="./blog.html">Blog</a>
-            <a href="./featured.html">Featured</a>
-            <a href="./about.html">About</a>
-            <a href="https://www.instagram.com/hilarymyersbakes/">
-            <img src="instagram-xxl.png" alt="cookies" width="20" height="20">
-        </a>
+                <span>Hilary Myers Bakes</span>
+                <a href="./index.html">Home</a>
+                <a href="./recipes.html">Favorite Recipes</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./featured.html">Featured</a>
+                <a href="./about.html">About</a>
+                <a href="https://www.instagram.com/hilarymyersbakes/">
+                <img src="instagram-xxl.png" alt="cookies" width="20" height="20">
+                </a>
         </div>
         <img class="left" src="Cookies1.jpg" alt="cookies">
         <img class="right" src="Cookies2.jpg" alt="cookies">
